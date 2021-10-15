@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'Poppins-Light';
+  src: url('./assets/fonts/Poppins/Poppins-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('./assets/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-Medium';
+  src: url('./assets/fonts/Poppins/Poppins-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url('./assets/fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-SemiBold';
+  src: url('./assets/fonts/Poppins/Poppins-SemiBold.ttf') format('truetype');
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins-Regular';
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+
+  li {
+    list-style: none;
+  }
+}
+
+i {
+  font-size: 1.2rem;
+}
+
+.fa-mountain, .fa-check-circle {
+  color: #00BC78;
+}
+
+.fa-file-pdf {
+  color: #EB5757;
+}
+
+.fa-file-archive {
+  color: #FFD233;
+}
+
+.fa-file-spreadsheet {
+  color: #00BC78;
+}
+
+.fa-spinner-third {
+  color: #2E6DDE;
+}
+
+.fa-times {
+  color: #5B5B5B;
+  font-size: .9rem;
+}
+
+.fa-window-close {
+  color: red;
+}

@@ -1,0 +1,42 @@
+.card {
+    background: #F6F7FC;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.6rem 1.8rem 1.3rem .9rem;
+    margin: 1.25rem 0;
+    position: relative;
+}
+
+.card__file {
+    display: flex;
+    align-items: center;
+}
+
+.file__name {
+    display: flex;
+    flex-direction: column;
+    padding-left: .9rem;
+}
+
+.fname {
+    color: #222222;
+    opacity: 0.8;
+    font-family: 'Poppins-SemiBold';
+    font-size: .75rem;
+    padding-bottom: .4rem;
+}
+
+.fsize {
+    color: #9E9E9E;
+    font-size: .5rem;
+}
+
+.card__close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: .2rem .7rem 0 0;
+    cursor: pointer;
+}

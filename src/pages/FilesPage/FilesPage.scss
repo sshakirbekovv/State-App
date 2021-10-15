@@ -1,0 +1,38 @@
+.filespage {
+    padding: 2rem;
+}
+
+.filespage__body {
+    display: flex;
+    flex-direction: column;
+}
+
+.filespage__body-stage {
+    border-top: 1px solid #ECECEC;
+}
+
+.nofiles {
+    font-size: .8rem;
+    color: #9E9E9E;
+    padding: 1.5rem 0;
+}
+
+.filespage__body-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: .6rem;
+    padding-top: 2rem;
+
+    h3 {
+        color: #000000;
+    }
+
+    span {
+        text-decoration: underline;
+        text-transform: uppercase;
+        color: #2E6DDE;
+        font-size: .5rem;
+        cursor: pointer;
+    }
+}
